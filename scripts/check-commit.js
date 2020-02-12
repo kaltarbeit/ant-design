@@ -14,15 +14,6 @@ function exitProcess(code = 1) {
   process.exit(code);
 }
 
-async function checkVersion() {
-  const { versions } = await fetch('http://registry.npmjs.org/antd').then(res => res.json());
-  if (version in versions) {
-    console.log(chalk.yellow('😈 Current version already exists. Forget update package.json?'));
-    console.log(chalk.cyan(' => Current:'), version);
-    exitProcess();
-  }
-}
-
 async function checkBranch({ current }) {
   if (current !== '3.x-ksd') {
     console.log(chalk.yellow('🤔 You are not in the master branch!'));
@@ -40,26 +31,22 @@ async function checkCommit({ files }) {
   }
 }
 
-async function checkRemote() {
-  const { remote } = await git.fetch('origin', 'master');
-  if (remote.indexOf('ant-design/ant-design') === -1) {
-    console.log(
-      chalk.yellow('😓 Your remote origin is not ant-design/ant-design, did you fork it?'),
-    );
-    exitProcess();
-  }
-}
+// async function checkRemote() {
+//   const { remote } = await git.fetch('origin', 'master');
+//   if (remote.indexOf('ant-design/ant-design') === -1) {
+//     console.log(
+//       chalk.yellow('😓 Your remote origin is not ant-design/ant-design, did you fork it?'),
+//     );
+//     exitProcess();
+//   }
+// }
 
 async function checkAll() {
   const status = await git.status();
 
-  await checkVersion();
-
   await checkBranch(status);
 
   await checkCommit(status);
-
-  await checkRemote();
 }
 
 checkAll();
