@@ -86,5 +86,6 @@ declare module 'react-lifecycles-compat';
 
 declare module '@kaltarbeit/rc-pagination';
 declare module '@kaltarbeit/rc-pagination/*';
+declare module 'rc-pagination/*';
 
 declare module '@kaltarbeit/rc-select';

@@ -3,7 +3,9 @@
     "baseUrl": "./",
     "paths": {
       "antd": ["components/index.tsx"],
-      "antd/es/*": ["components/*"]
+      "antd/es/*": ["components/*"],
+      "rc-pagination": ["node_modules/@kaltarbeit/rc-pagination"],
+      "rc-select": ["node_modules/@kaltarbeit/rc-select"]
     },
     "strictNullChecks": true,
     "moduleResolution": "node",

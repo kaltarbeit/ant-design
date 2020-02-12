@@ -262,8 +262,6 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
           })
         : menuItemSelectedIcon)) || <Icon type="check" className={`${prefixCls}-selected-icon`} />;
 
-    console.log('placement', placement);
-
     return (
       <RcSelect
         inputIcon={this.renderSuffixIcon(prefixCls)}

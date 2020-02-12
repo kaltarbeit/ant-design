@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Option, OptGroup } from 'rc-select';
+import { Option } from '@kaltarbeit/rc-select';
 import classNames from 'classnames';
 import InputElement from './InputElement';
 import Input, { InputProps } from '../input';
@@ -51,9 +51,7 @@ function isSelectOptionOrSelectOptGroup(child: any): Boolean {
 }
 
 export default class AutoComplete extends React.Component<AutoCompleteProps, {}> {
-  static Option = Option as React.ClassicComponentClass<OptionProps>;
-
-  static OptGroup = OptGroup as React.ClassicComponentClass<OptGroupProps>;
+  static Option = (Option as unknown) as React.ClassicComponentClass<OptionProps>;
 
   static defaultProps = {
     transitionName: 'slide-up',

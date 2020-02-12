@@ -24,7 +24,7 @@ async function checkVersion() {
 }
 
 async function checkBranch({ current }) {
-  if (current !== '3.x-stable') {
+  if (current !== '3.x-ksd') {
     console.log(chalk.yellow('🤔 You are not in the master branch!'));
     exitProcess();
   }
