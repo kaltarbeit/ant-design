@@ -403,10 +403,10 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Previous Page"
           >
             <i
               aria-label="icon: left"
@@ -432,19 +432,20 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         <li
           class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
           tabindex="0"
-          title="1"
         >
-          <a>
+          <a
+            title="1페이지"
+          >
             1
           </a>
         </li>
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Next Page"
           >
             <i
               aria-label="icon: right"
@@ -915,10 +916,10 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Previous Page"
           >
             <i
               aria-label="icon: left"
@@ -944,19 +945,20 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         <li
           class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
           tabindex="0"
-          title="1"
         >
-          <a>
+          <a
+            title="1페이지"
+          >
             1
           </a>
         </li>
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Next Page"
           >
             <i
               aria-label="icon: right"
@@ -1204,10 +1206,10 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
-          title="Previous Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Previous Page"
           >
             <i
               aria-label="icon: left"
@@ -1233,19 +1235,20 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         <li
           class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
           tabindex="0"
-          title="1"
         >
-          <a>
+          <a
+            title="1페이지"
+          >
             1
           </a>
         </li>
         <li
           aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-next"
-          title="Next Page"
         >
           <a
             class="ant-pagination-item-link"
+            title="Next Page"
           >
             <i
               aria-label="icon: right"

@@ -8,10 +8,10 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -37,45 +37,50 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-2"
     tabindex="0"
-    title="2"
   >
-    <a>
+    <a
+      title="2페이지"
+    >
       2
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-3"
     tabindex="0"
-    title="3"
   >
-    <a>
+    <a
+      title="3페이지"
+    >
       3
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-4"
     tabindex="0"
-    title="4"
   >
-    <a>
+    <a
+      title="4페이지"
+    >
       4
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-5"
     tabindex="0"
-    title="5"
   >
-    <a>
+    <a
+      title="5페이지"
+    >
       5
     </a>
   </li>
@@ -83,10 +88,10 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-next"
     tabindex="0"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -122,10 +127,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-prev"
       tabindex="0"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -151,45 +156,50 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -234,9 +244,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-50"
       tabindex="0"
-      title="50"
     >
-      <a>
+      <a
+        title="50페이지"
+      >
         50
       </a>
     </li>
@@ -244,10 +255,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -335,10 +346,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-prev"
       tabindex="0"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -364,45 +375,50 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -447,9 +463,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-50"
       tabindex="0"
-      title="50"
     >
-      <a>
+      <a
+        title="50페이지"
+      >
         50
       </a>
     </li>
@@ -457,10 +474,10 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -551,10 +568,10 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -580,45 +597,50 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-2"
     tabindex="0"
-    title="2"
   >
-    <a>
+    <a
+      title="2페이지"
+    >
       2
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
     tabindex="0"
-    title="3"
   >
-    <a>
+    <a
+      title="3페이지"
+    >
       3
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-4"
     tabindex="0"
-    title="4"
   >
-    <a>
+    <a
+      title="4페이지"
+    >
       4
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-5"
     tabindex="0"
-    title="5"
   >
-    <a>
+    <a
+      title="5페이지"
+    >
       5
     </a>
   </li>
@@ -626,10 +648,10 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-next"
     tabindex="0"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -663,7 +685,6 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
   >
     <a>
       Previous
@@ -672,45 +693,50 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-2"
     tabindex="0"
-    title="2"
   >
-    <a>
+    <a
+      title="2페이지"
+    >
       2
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-3"
     tabindex="0"
-    title="3"
   >
-    <a>
+    <a
+      title="3페이지"
+    >
       3
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-4"
     tabindex="0"
-    title="4"
   >
-    <a>
+    <a
+      title="4페이지"
+    >
       4
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
     tabindex="0"
-    title="5"
   >
-    <a>
+    <a
+      title="5페이지"
+    >
       5
     </a>
   </li>
@@ -755,9 +781,10 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-50"
     tabindex="0"
-    title="50"
   >
-    <a>
+    <a
+      title="50페이지"
+    >
       50
     </a>
   </li>
@@ -765,7 +792,6 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-next"
     tabindex="0"
-    title="Next Page"
   >
     <a>
       Next
@@ -784,10 +810,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-prev"
       tabindex="0"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -813,45 +839,50 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -896,9 +927,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-50"
       tabindex="0"
-      title="50"
     >
-      <a>
+      <a
+        title="50페이지"
+      >
         50
       </a>
     </li>
@@ -906,10 +938,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -955,10 +987,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-prev"
       tabindex="0"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -984,45 +1016,50 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -1067,9 +1104,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-50"
       tabindex="0"
-      title="50"
     >
-      <a>
+      <a
+        title="50페이지"
+      >
         50
       </a>
     </li>
@@ -1077,10 +1115,10 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -1130,10 +1168,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -1159,45 +1197,50 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -1205,10 +1248,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -1239,10 +1282,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -1268,45 +1311,50 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -1314,10 +1362,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -1417,10 +1465,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -1446,45 +1494,50 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -1492,10 +1545,10 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -1531,10 +1584,10 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -1560,9 +1613,10 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
@@ -1607,45 +1661,50 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
     tabindex="0"
-    title="4"
   >
-    <a>
+    <a
+      title="4페이지"
+    >
       4
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-5"
     tabindex="0"
-    title="5"
   >
-    <a>
+    <a
+      title="5페이지"
+    >
       5
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-6 ant-pagination-item-active"
     tabindex="0"
-    title="6"
   >
-    <a>
+    <a
+      title="6페이지"
+    >
       6
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-7"
     tabindex="0"
-    title="7"
   >
-    <a>
+    <a
+      title="7페이지"
+    >
       7
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
     tabindex="0"
-    title="8"
   >
-    <a>
+    <a
+      title="8페이지"
+    >
       8
     </a>
   </li>
@@ -1690,9 +1749,10 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-50"
     tabindex="0"
-    title="50"
   >
-    <a>
+    <a
+      title="50페이지"
+    >
       50
     </a>
   </li>
@@ -1700,10 +1760,10 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-next"
     tabindex="0"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -1737,10 +1797,10 @@ exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -1783,10 +1843,10 @@ exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
     aria-disabled="false"
     class=" ant-pagination-next"
     tabindex="0"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -1826,10 +1886,10 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     <li
       aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -1855,45 +1915,50 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -1901,10 +1966,10 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"
@@ -1941,10 +2006,10 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     <li
       aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
-      title="Previous Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Previous Page"
       >
         <i
           aria-label="icon: left"
@@ -1970,45 +2035,50 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
       tabindex="0"
-      title="1"
     >
-      <a>
+      <a
+        title="1페이지"
+      >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
       tabindex="0"
-      title="2"
     >
-      <a>
+      <a
+        title="2페이지"
+      >
         2
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
       tabindex="0"
-      title="3"
     >
-      <a>
+      <a
+        title="3페이지"
+      >
         3
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
       tabindex="0"
-      title="4"
     >
-      <a>
+      <a
+        title="4페이지"
+      >
         4
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
       tabindex="0"
-      title="5"
     >
-      <a>
+      <a
+        title="5페이지"
+      >
         5
       </a>
     </li>
@@ -2016,10 +2086,10 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       aria-disabled="false"
       class=" ant-pagination-next"
       tabindex="0"
-      title="Next Page"
     >
       <a
         class="ant-pagination-item-link"
+        title="Next Page"
       >
         <i
           aria-label="icon: right"

@@ -36,10 +36,10 @@ exports[`List.pagination renders pagination correctly 1`] = `
       <li
         aria-disabled="true"
         class="ant-pagination-disabled ant-pagination-prev"
-        title="Previous Page"
       >
         <a
           class="ant-pagination-item-link"
+          title="Previous Page"
         >
           <i
             aria-label="icon: left"
@@ -65,18 +65,20 @@ exports[`List.pagination renders pagination correctly 1`] = `
       <li
         class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
         tabindex="0"
-        title="1"
       >
-        <a>
+        <a
+          title="1페이지"
+        >
           1
         </a>
       </li>
       <li
         class="ant-pagination-item ant-pagination-item-2"
         tabindex="0"
-        title="2"
       >
-        <a>
+        <a
+          title="2페이지"
+        >
           2
         </a>
       </li>
@@ -84,10 +86,10 @@ exports[`List.pagination renders pagination correctly 1`] = `
         aria-disabled="false"
         class=" ant-pagination-next"
         tabindex="0"
-        title="Next Page"
       >
         <a
           class="ant-pagination-item-link"
+          title="Next Page"
         >
           <i
             aria-label="icon: right"
@@ -123,10 +125,10 @@ exports[`List.pagination should change page size work 1`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -152,19 +154,20 @@ exports[`List.pagination should change page size work 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -253,10 +256,10 @@ exports[`List.pagination should change page size work 2`] = `
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -282,19 +285,20 @@ exports[`List.pagination should change page size work 2`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
@@ -439,10 +443,10 @@ exports[`List.pagination should default work 1`] = `
     aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
-    title="Previous Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Previous Page"
     >
       <i
         aria-label="icon: left"
@@ -468,28 +472,30 @@ exports[`List.pagination should default work 1`] = `
   <li
     class="ant-pagination-item ant-pagination-item-1"
     tabindex="0"
-    title="1"
   >
-    <a>
+    <a
+      title="1페이지"
+    >
       1
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
     tabindex="0"
-    title="2"
   >
-    <a>
+    <a
+      title="2페이지"
+    >
       2
     </a>
   </li>
   <li
     aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-next"
-    title="Next Page"
   >
     <a
       class="ant-pagination-item-link"
+      title="Next Page"
     >
       <i
         aria-label="icon: right"
