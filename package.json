@@ -1,6 +1,6 @@
 {
   "name": "antd",
-  "version": "3.26.9-ksd.1",
+  "version": "3.26.9-ksd.2",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -28,7 +28,8 @@
   "files": [
     "dist",
     "lib",
-    "es"
+    "es",
+    "packages"
   ],
   "sideEffects": [
     "dist/*",
