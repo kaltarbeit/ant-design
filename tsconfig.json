@@ -4,8 +4,9 @@
     "paths": {
       "antd": ["components/index.tsx"],
       "antd/es/*": ["components/*"],
-      "rc-pagination": ["node_modules/@kaltarbeit/rc-pagination"],
-      "rc-select": ["node_modules/@kaltarbeit/rc-select"]
+      "rc-pagination": ["./node_modules/@kaltarbeit/rc-pagination"],
+      "rc-pagination/es/*": ["./node_modules/@kaltarbeit/rc-pagination/es/*"],
+      "rc-select": ["./node_modules/@kaltarbeit/rc-select"]
     },
     "strictNullChecks": true,
     "moduleResolution": "node",
