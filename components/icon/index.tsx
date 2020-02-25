@@ -202,14 +202,8 @@ const Icon: IconComponent<IconProps> = props => {
 
   return (
     <LocaleReceiver componentName="Icon">
-      {(locale: TransferLocale) => (
-        <i
-          aria-label={type && `${locale.icon}: ${type}`}
-          {...restProps}
-          tabIndex={iconTabIndex}
-          onClick={onClick}
-          className={classString}
-        >
+      {() => (
+        <i {...restProps} tabIndex={iconTabIndex} onClick={onClick} className={classString}>
           {renderInnerNode()}
         </i>
       )}
