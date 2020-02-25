@@ -47,32 +47,32 @@ export type PaginationLocale = any;
 export default class Pagination extends React.Component<PaginationProps, {}> {
   getIconsProps = (prefixCls: string, locale: any) => {
     const prevIcon = (
-      <a title={locale.prev_page} className={`${prefixCls}-item-link`}>
-        <Icon type="left" />
-      </a>
+      <span className={`${prefixCls}-item-link`}>
+        <Icon type="left" title={locale.prev_page} />
+      </span>
     );
     const nextIcon = (
-      <a title={locale.next_page} className={`${prefixCls}-item-link`}>
-        <Icon type="right" />
-      </a>
+      <span className={`${prefixCls}-item-link`}>
+        <Icon type="right" title={locale.next_page} />
+      </span>
     );
     const jumpPrevIcon = (
-      <a className={`${prefixCls}-item-link`}>
+      <span className={`${prefixCls}-item-link`}>
         {/* You can use transition effects in the container :) */}
         <div className={`${prefixCls}-item-container`}>
           <Icon className={`${prefixCls}-item-link-icon`} type="double-left" />
           <span className={`${prefixCls}-item-ellipsis`}>•••</span>
         </div>
-      </a>
+      </span>
     );
     const jumpNextIcon = (
-      <a className={`${prefixCls}-item-link`}>
+      <span className={`${prefixCls}-item-link`}>
         {/* You can use transition effects in the container :) */}
         <div className={`${prefixCls}-item-container`}>
           <Icon className={`${prefixCls}-item-link-icon`} type="double-right" />
           <span className={`${prefixCls}-item-ellipsis`}>•••</span>
         </div>
-      </a>
+      </span>
     );
     return {
       prevIcon,
