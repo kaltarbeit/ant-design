@@ -1,5 +1,5 @@
 import * as React from 'react';
-import RcDropdown from 'rc-dropdown';
+import RcDropdown from '@kaltarbeit/rc-dropdown';
 import classNames from 'classnames';
 import DropdownButton from './dropdown-button';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
@@ -15,7 +15,7 @@ const Placements = tuple(
   'bottomCenter',
   'bottomRight',
 );
-type Placement = (typeof Placements)[number];
+type Placement = typeof Placements[number];
 
 type OverlayFunc = () => React.ReactNode;
 
@@ -33,7 +33,7 @@ type Align = {
 };
 
 export interface DropDownProps {
-  trigger?: ('click' | 'hover' | 'contextMenu')[];
+  trigger?: ('click' | 'hover' | 'contextMenu' | 'focus')[];
   overlay: React.ReactNode | OverlayFunc;
   onVisibleChange?: (visible: boolean) => void;
   visible?: boolean;

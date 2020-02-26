@@ -31,6 +31,7 @@ declare module 'rc-cascader';
 declare module 'rc-checkbox';
 
 declare module 'rc-dropdown';
+declare module '@kaltarbeit/rc-dropdown';
 
 declare module 'rc-editor-mention';
 
