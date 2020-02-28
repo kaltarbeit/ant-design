@@ -5905,7 +5905,7 @@ exports[`ConfigProvider components Checkbox configProvider 1`] = `
 <div
   class="config-checkbox-group"
 >
-  <label
+  <span
     class="config-checkbox-wrapper"
   >
     <span
@@ -5922,7 +5922,7 @@ exports[`ConfigProvider components Checkbox configProvider 1`] = `
     <span>
       Bamboo
     </span>
-  </label>
+  </span>
 </div>
 `;
 
@@ -5930,7 +5930,7 @@ exports[`ConfigProvider components Checkbox normal 1`] = `
 <div
   class="ant-checkbox-group"
 >
-  <label
+  <span
     class="ant-checkbox-wrapper"
   >
     <span
@@ -5947,7 +5947,7 @@ exports[`ConfigProvider components Checkbox normal 1`] = `
     <span>
       Bamboo
     </span>
-  </label>
+  </span>
 </div>
 `;
 
@@ -5955,7 +5955,7 @@ exports[`ConfigProvider components Checkbox prefixCls 1`] = `
 <div
   class="prefix-Checkbox-group"
 >
-  <label
+  <span
     class="prefix-Checkbox-wrapper"
   >
     <span
@@ -5972,7 +5972,7 @@ exports[`ConfigProvider components Checkbox prefixCls 1`] = `
     <span>
       Bamboo
     </span>
-  </label>
+  </span>
 </div>
 `;
 
@@ -11646,7 +11646,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                               class="config-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <label
+                              <span
                                 class="config-checkbox-wrapper"
                               >
                                 <span
@@ -11660,7 +11660,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                                     class="config-checkbox-inner"
                                   />
                                 </span>
-                              </label>
+                              </span>
                               <span>
                                 Joe
                               </span>
@@ -11889,7 +11889,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <label
+                              <span
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -11903,7 +11903,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </label>
+                              </span>
                               <span>
                                 Joe
                               </span>
@@ -12132,7 +12132,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <label
+                              <span
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -12146,7 +12146,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </label>
+                              </span>
                               <span>
                                 Joe
                               </span>
@@ -16105,7 +16105,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
     <div
       class="config-transfer-list-header"
     >
-      <label
+      <span
         class="config-checkbox-wrapper"
       >
         <span
@@ -16119,7 +16119,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
             class="config-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="config-transfer-list-header-selected"
       >
@@ -16243,7 +16243,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
     <div
       class="config-transfer-list-header"
     >
-      <label
+      <span
         class="config-checkbox-wrapper"
       >
         <span
@@ -16257,7 +16257,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
             class="config-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="config-transfer-list-header-selected"
       >
@@ -16336,7 +16336,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <label
+      <span
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16350,7 +16350,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -16474,7 +16474,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <label
+      <span
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16488,7 +16488,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -16567,7 +16567,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
     <div
       class="prefix-Transfer-list-header"
     >
-      <label
+      <span
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16581,7 +16581,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="prefix-Transfer-list-header-selected"
       >
@@ -16705,7 +16705,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
     <div
       class="prefix-Transfer-list-header"
     >
-      <label
+      <span
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16719,7 +16719,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </label>
+      </span>
       <span
         class="prefix-Transfer-list-header-selected"
       >

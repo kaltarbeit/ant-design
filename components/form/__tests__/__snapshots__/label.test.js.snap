@@ -9,7 +9,6 @@ exports[`Form should \`labelAlign\` work in FormItem 1`] = `
   >
     <label
       class=""
-      title="test"
     >
       test
     </label>
@@ -40,7 +39,6 @@ exports[`Form should \`labelAlign\` work in FormItem 2`] = `
     >
       <label
         class=""
-        title="test"
       >
         test
       </label>
@@ -72,7 +70,6 @@ exports[`Form should props colon of Form.Item override the props colon of Form. 
     >
       <label
         class="ant-form-item-no-colon"
-        title="label"
       >
         label
       </label>
@@ -99,7 +96,6 @@ exports[`Form should props colon of Form.Item override the props colon of Form. 
     >
       <label
         class=""
-        title="label"
       >
         label
       </label>
@@ -126,7 +122,6 @@ exports[`Form should props colon of Form.Item override the props colon of Form. 
     >
       <label
         class="ant-form-item-no-colon"
-        title="label"
       >
         label
       </label>

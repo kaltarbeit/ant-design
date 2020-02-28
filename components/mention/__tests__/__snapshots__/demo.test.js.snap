@@ -262,7 +262,6 @@ exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
       <label
         class=""
         for="control-mention"
-        title="Top coders"
       >
         Top coders
       </label>

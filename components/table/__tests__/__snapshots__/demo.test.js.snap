@@ -1754,7 +1754,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Bordered"
         >
           Bordered
         </label>
@@ -1790,7 +1789,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="loading"
         >
           loading
         </label>
@@ -1826,7 +1824,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Title"
         >
           Title
         </label>
@@ -1862,7 +1859,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Column Header"
         >
           Column Header
         </label>
@@ -1899,7 +1895,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Footer"
         >
           Footer
         </label>
@@ -1936,7 +1931,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Expandable"
         >
           Expandable
         </label>
@@ -1973,7 +1967,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Checkbox"
         >
           Checkbox
         </label>
@@ -2010,7 +2003,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Fixed Header"
         >
           Fixed Header
         </label>
@@ -2046,7 +2038,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Has Data"
         >
           Has Data
         </label>
@@ -2083,7 +2074,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Ellipsis"
         >
           Ellipsis
         </label>
@@ -2119,7 +2109,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Size"
         >
           Size
         </label>
@@ -2207,7 +2196,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Table Layout"
         >
           Table Layout
         </label>
@@ -2275,7 +2263,6 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
       >
         <label
           class=""
-          title="Pagination"
         >
           Pagination
         </label>
@@ -2430,7 +2417,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                             <div
                               class="ant-table-selection"
                             >
-                              <label
+                              <span
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -2444,7 +2431,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </label>
+                              </span>
                             </div>
                           </span>
                           <span
@@ -2548,7 +2535,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -2562,7 +2549,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -2644,7 +2631,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -2658,7 +2645,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -2740,7 +2727,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -2754,7 +2741,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -2836,7 +2823,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -2850,7 +2837,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -2932,7 +2919,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -2946,7 +2933,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -3028,7 +3015,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -3042,7 +3029,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -3124,7 +3111,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -3138,7 +3125,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -3220,7 +3207,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -3234,7 +3221,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -3316,7 +3303,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -3330,7 +3317,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -3412,7 +3399,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -3426,7 +3413,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -5146,7 +5133,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                           <div
                             class="ant-table-selection"
                           >
-                            <label
+                            <span
                               class="ant-checkbox-wrapper"
                             >
                               <span
@@ -5160,7 +5147,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                                   class="ant-checkbox-inner"
                                 />
                               </span>
-                            </label>
+                            </span>
                           </div>
                         </span>
                         <span
@@ -5236,7 +5223,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -5250,7 +5237,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -5287,7 +5274,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -5301,7 +5288,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -12273,7 +12260,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                           <div
                             class="ant-table-selection"
                           >
-                            <label
+                            <span
                               class="ant-checkbox-wrapper"
                             >
                               <span
@@ -12287,7 +12274,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                                   class="ant-checkbox-inner"
                                 />
                               </span>
-                            </label>
+                            </span>
                           </div>
                         </span>
                         <span
@@ -12363,7 +12350,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -12378,7 +12365,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -12407,7 +12394,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -12422,7 +12409,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -12451,7 +12438,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -12466,7 +12453,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -12495,7 +12482,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                     class="ant-table-selection-column"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
                       >
                         <span
@@ -12511,7 +12498,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -12683,7 +12670,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                             <div
                               class="ant-table-selection"
                             >
-                              <label
+                              <span
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -12697,7 +12684,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </label>
+                              </span>
                             </div>
                           </span>
                           <span
@@ -12773,7 +12760,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12787,7 +12774,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -12814,7 +12801,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12828,7 +12815,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -12855,7 +12842,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12869,7 +12856,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -12896,7 +12883,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12910,7 +12897,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -12937,7 +12924,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12951,7 +12938,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -12978,7 +12965,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -12992,7 +12979,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -13019,7 +13006,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -13033,7 +13020,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -13060,7 +13047,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -13074,7 +13061,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -13101,7 +13088,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -13115,7 +13102,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -13142,7 +13129,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                       class="ant-table-selection-column"
                     >
                       <span>
-                        <label
+                        <span
                           class="ant-checkbox-wrapper"
                         >
                           <span
@@ -13156,7 +13143,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
                               class="ant-checkbox-inner"
                             />
                           </span>
-                        </label>
+                        </span>
                       </span>
                     </td>
                     <td
@@ -13352,7 +13339,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                           <div
                             class="ant-table-selection"
                           >
-                            <label
+                            <span
                               class="ant-table-selection-select-all-custom ant-checkbox-wrapper"
                             >
                               <span
@@ -13366,7 +13353,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                                   class="ant-checkbox-inner"
                                 />
                               </span>
-                            </label>
+                            </span>
                             <div
                               class="ant-table-selection-down ant-dropdown-trigger"
                             >
@@ -13464,7 +13451,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13478,7 +13465,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13505,7 +13492,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13519,7 +13506,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13546,7 +13533,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13560,7 +13547,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13587,7 +13574,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13601,7 +13588,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13628,7 +13615,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13642,7 +13629,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13669,7 +13656,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13683,7 +13670,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13710,7 +13697,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13724,7 +13711,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13751,7 +13738,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13765,7 +13752,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13792,7 +13779,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13806,7 +13793,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td
@@ -13833,7 +13820,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                     class="ant-table-selection-column ant-table-selection-column-custom"
                   >
                     <span>
-                      <label
+                      <span
                         class="ant-checkbox-wrapper"
                       >
                         <span
@@ -13847,7 +13834,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
                             class="ant-checkbox-inner"
                           />
                         </span>
-                      </label>
+                      </span>
                     </span>
                   </td>
                   <td

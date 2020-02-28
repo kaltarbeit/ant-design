@@ -237,7 +237,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         <div
           class="ant-transfer-list-header"
         >
-          <label
+          <span
             class="ant-checkbox-wrapper"
           >
             <span
@@ -251,7 +251,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 class="ant-checkbox-inner"
               />
             </span>
-          </label>
+          </span>
           <span
             class="ant-transfer-list-header-selected"
           >
@@ -375,7 +375,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         <div
           class="ant-transfer-list-header"
         >
-          <label
+          <span
             class="ant-checkbox-wrapper"
           >
             <span
@@ -389,7 +389,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 class="ant-checkbox-inner"
               />
             </span>
-          </label>
+          </span>
           <span
             class="ant-transfer-list-header-selected"
           >

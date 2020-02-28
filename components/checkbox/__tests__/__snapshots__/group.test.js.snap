@@ -4,7 +4,7 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
 <div
   class="my-checkbox-group"
 >
-  <label
+  <span
     class="my-checkbox-group-item my-checkbox-wrapper"
   >
     <span
@@ -22,8 +22,8 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
     <span>
       Apple
     </span>
-  </label>
-  <label
+  </span>
+  <span
     class="my-checkbox-group-item my-checkbox-wrapper"
   >
     <span
@@ -41,6 +41,6 @@ exports[`CheckboxGroup passes prefixCls down to checkbox 1`] = `
     <span>
       Orange
     </span>
-  </label>
+  </span>
 </div>
 `;

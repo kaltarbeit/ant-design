@@ -37,7 +37,6 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
       <label
         class=""
         for="coders"
-        title="Top coders"
       >
         Top coders
       </label>
@@ -71,10 +70,19 @@ exports[`renders ./components/mentions/demo/form.md correctly 1`] = `
     <div
       class="ant-col ant-col-6 ant-form-item-label"
     >
+      <span
+        class="ant-form-item-required-mark"
+      >
+        *
+        <span
+          class="hidden"
+        >
+          필수입력
+        </span>
+      </span>
       <label
         class="ant-form-item-required"
         for="bio"
-        title="Bio"
       >
         Bio
       </label>
