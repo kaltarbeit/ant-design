@@ -370,10 +370,14 @@ export default class FormItem extends React.Component<FormItemProps, any> {
 
           return label ? (
             <Col {...mergedLabelCol} className={labelColClassName}>
+              {required && (
+                <span className={`${prefixCls}-item-required-mark`}>
+                  *<span className="hidden">필수입력</span>
+                </span>
+              )}
               <label
                 htmlFor={htmlFor || id || this.getId()}
                 className={labelClassName}
-                title={typeof label === 'string' ? label : ''}
                 onClick={this.onLabelClick}
               >
                 {labelChildren}
