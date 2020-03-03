@@ -45,15 +45,15 @@ export interface PaginationConfig extends PaginationProps {
 export type PaginationLocale = any;
 
 export default class Pagination extends React.Component<PaginationProps, {}> {
-  getIconsProps = (prefixCls: string, locale: any) => {
+  getIconsProps = (prefixCls: string) => {
     const prevIcon = (
       <span className={`${prefixCls}-item-link`}>
-        <Icon type="left" title={locale.prev_page} />
+        <Icon type="left" />
       </span>
     );
     const nextIcon = (
       <span className={`${prefixCls}-item-link`}>
-        <Icon type="right" title={locale.next_page} />
+        <Icon type="right" />
       </span>
     );
     const jumpPrevIcon = (
@@ -104,7 +104,7 @@ export default class Pagination extends React.Component<PaginationProps, {}> {
               {...restProps}
               prefixCls={prefixCls}
               selectPrefixCls={selectPrefixCls}
-              {...this.getIconsProps(prefixCls, locale)}
+              {...this.getIconsProps(prefixCls)}
               className={classNames(className, { mini: isSmall })}
               selectComponentClass={isSmall ? MiniSelect : Select}
               locale={locale}
