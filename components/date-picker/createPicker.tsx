@@ -228,7 +228,7 @@ export default function createPicker(TheCalendar: React.ComponentClass): any {
           <input
             ref={this.saveInput}
             disabled={props.disabled}
-            readOnly
+            readOnly={props.inputReadOnly}
             value={formatDate(inputValue, props.format)}
             placeholder={placeholder}
             className={props.pickerInputClass}
