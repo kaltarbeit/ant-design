@@ -511,10 +511,12 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -555,6 +557,7 @@ exports[`renders ./components/table/demo/basic.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -762,10 +765,12 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -806,6 +811,7 @@ exports[`renders ./components/table/demo/bordered.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1095,10 +1101,12 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1139,6 +1147,7 @@ exports[`renders ./components/table/demo/colspan-rowspan.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1414,10 +1423,12 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1458,6 +1469,7 @@ exports[`renders ./components/table/demo/custom-filter-panel.md correctly 1`] = 
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1655,10 +1667,12 @@ exports[`renders ./components/table/demo/drag-sorting.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -1699,6 +1713,7 @@ exports[`renders ./components/table/demo/drag-sorting.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -3482,10 +3497,12 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -3526,6 +3543,7 @@ exports[`renders ./components/table/demo/dynamic-settings.md correctly 1`] = `
           >
             <a
               aria-disabled="true"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -3753,10 +3771,12 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -3797,6 +3817,7 @@ exports[`renders ./components/table/demo/edit-cell.md correctly 1`] = `
           >
             <a
               aria-disabled="true"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -4224,10 +4245,12 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -4266,7 +4289,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -4276,7 +4299,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-3"
         >
           <a
-            href="#none"
+            href="?page=3"
             title="3페이지"
           >
             3
@@ -4286,7 +4309,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-4"
         >
           <a
-            href="#none"
+            href="?page=4"
             title="4페이지"
           >
             4
@@ -4296,7 +4319,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
         >
           <a
-            href="#none"
+            href="?page=5"
             title="5페이지"
           >
             5
@@ -4306,7 +4329,8 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
         >
           <a
-            href="#none"
+            href="?page=6"
+            title="Next 5 Pages"
           >
             <span
               class="ant-pagination-item-link"
@@ -4345,8 +4369,8 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-10"
         >
           <a
-            href="#none"
-            title="10페이지"
+            href="?page=10"
+            title="마지막 페이지"
           >
             10
           </a>
@@ -4354,11 +4378,11 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -4674,10 +4698,12 @@ exports[`renders ./components/table/demo/ellipsis.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -4718,6 +4744,7 @@ exports[`renders ./components/table/demo/ellipsis.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -4987,10 +5014,12 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -5031,6 +5060,7 @@ exports[`renders ./components/table/demo/expand.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -5304,10 +5334,12 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -5348,6 +5380,7 @@ exports[`renders ./components/table/demo/expand-children.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -5943,10 +5976,12 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -5987,6 +6022,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -7381,10 +7417,12 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -7423,7 +7461,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -7433,7 +7471,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-3"
         >
           <a
-            href="#none"
+            href="?page=3"
             title="3페이지"
           >
             3
@@ -7443,7 +7481,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-4"
         >
           <a
-            href="#none"
+            href="?page=4"
             title="4페이지"
           >
             4
@@ -7453,7 +7491,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
         >
           <a
-            href="#none"
+            href="?page=5"
             title="5페이지"
           >
             5
@@ -7463,7 +7501,8 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
         >
           <a
-            href="#none"
+            href="?page=6"
+            title="Next 5 Pages"
           >
             <span
               class="ant-pagination-item-link"
@@ -7502,8 +7541,8 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-10"
         >
           <a
-            href="#none"
-            title="10페이지"
+            href="?page=10"
+            title="마지막 페이지"
           >
             10
           </a>
@@ -7511,11 +7550,11 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -8674,10 +8713,12 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -8716,7 +8757,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -8725,11 +8766,11 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -9962,10 +10003,12 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -10004,7 +10047,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -10014,7 +10057,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-3"
         >
           <a
-            href="#none"
+            href="?page=3"
             title="3페이지"
           >
             3
@@ -10024,7 +10067,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-4"
         >
           <a
-            href="#none"
+            href="?page=4"
             title="4페이지"
           >
             4
@@ -10034,7 +10077,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
         >
           <a
-            href="#none"
+            href="?page=5"
             title="5페이지"
           >
             5
@@ -10044,7 +10087,8 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
         >
           <a
-            href="#none"
+            href="?page=6"
+            title="Next 5 Pages"
           >
             <span
               class="ant-pagination-item-link"
@@ -10083,8 +10127,8 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-10"
         >
           <a
-            href="#none"
-            title="10페이지"
+            href="?page=10"
+            title="마지막 페이지"
           >
             10
           </a>
@@ -10092,11 +10136,11 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -10462,10 +10506,12 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -10506,6 +10552,7 @@ exports[`renders ./components/table/demo/head.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -10885,10 +10932,12 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -10929,6 +10978,7 @@ exports[`renders ./components/table/demo/jsx.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -11300,10 +11350,12 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -11344,6 +11396,7 @@ exports[`renders ./components/table/demo/nested-table.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -11764,10 +11817,12 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -11808,6 +11863,7 @@ exports[`renders ./components/table/demo/reset-filter.md correctly 1`] = `
           >
             <a
               aria-disabled="true"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -12098,10 +12154,12 @@ exports[`renders ./components/table/demo/resizable-column.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -12142,6 +12200,7 @@ exports[`renders ./components/table/demo/resizable-column.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -12489,10 +12548,12 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -12533,6 +12594,7 @@ exports[`renders ./components/table/demo/row-selection.md correctly 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -13130,10 +13192,12 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -13172,7 +13236,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             class="ant-pagination-item ant-pagination-item-2"
           >
             <a
-              href="#none"
+              href="?page=2"
               title="2페이지"
             >
               2
@@ -13182,7 +13246,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             class="ant-pagination-item ant-pagination-item-3"
           >
             <a
-              href="#none"
+              href="?page=3"
               title="3페이지"
             >
               3
@@ -13192,7 +13256,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             class="ant-pagination-item ant-pagination-item-4"
           >
             <a
-              href="#none"
+              href="?page=4"
               title="4페이지"
             >
               4
@@ -13202,7 +13266,7 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
             class="ant-pagination-item ant-pagination-item-5"
           >
             <a
-              href="#none"
+              href="?page=5"
               title="5페이지"
             >
               5
@@ -13211,11 +13275,11 @@ exports[`renders ./components/table/demo/row-selection-and-operation.md correctl
           <li
             aria-disabled="false"
             class=" ant-pagination-next"
-            tabindex="0"
           >
             <a
               aria-disabled="true"
-              href="#none"
+              href="?page=2"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -13819,10 +13883,12 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -13861,7 +13927,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -13871,7 +13937,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-3"
         >
           <a
-            href="#none"
+            href="?page=3"
             title="3페이지"
           >
             3
@@ -13881,7 +13947,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-4"
         >
           <a
-            href="#none"
+            href="?page=4"
             title="4페이지"
           >
             4
@@ -13891,7 +13957,7 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
           class="ant-pagination-item ant-pagination-item-5"
         >
           <a
-            href="#none"
+            href="?page=5"
             title="5페이지"
           >
             5
@@ -13900,11 +13966,11 @@ exports[`renders ./components/table/demo/row-selection-custom.md correctly 1`] =
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -14100,10 +14166,12 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -14144,6 +14212,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           >
             <a
               aria-disabled="true"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -14335,10 +14404,12 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           unselectable="unselectable"
         >
           <li
+            aria-disabled="true"
             class="ant-pagination-disabled ant-pagination-prev"
           >
             <a
               aria-disabled="true"
+              title="Previous Page"
             >
               <span
                 class="ant-pagination-item-link"
@@ -14379,6 +14450,7 @@ exports[`renders ./components/table/demo/size.md correctly 1`] = `
           >
             <a
               aria-disabled="true"
+              title="Next Page"
             >
               <span
                 class="ant-pagination-item-link"
