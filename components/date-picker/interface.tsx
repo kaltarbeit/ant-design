@@ -28,6 +28,7 @@ export interface PickerProps {
   autoFocus?: boolean;
   onFocus?: React.FocusEventHandler;
   onBlur?: (e: React.SyntheticEvent) => void;
+  title?: string;
 }
 
 export interface SinglePickerProps {
