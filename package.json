@@ -110,7 +110,7 @@
     "@kaltarbeit/rc-dropdown": "2.4.1-ksd.8",
     "@kaltarbeit/rc-select": "9.2.3-ksd.3",
     "@kaltarbeit/rc-pagination": "1.20.13-ksd.6",
-    "@kaltarbeit/rc-table": "6.10.11-ksd.2",
+    "@kaltarbeit/rc-table": "6.10.11-ksd.3",
     "@kaltarbeit/rc-trigger": "2.6.2-ksd.8",
     "@kaltarbeit/rc-calendar": "9.15.8-ksd.3",
     "rc-animate": "^2.10.2",

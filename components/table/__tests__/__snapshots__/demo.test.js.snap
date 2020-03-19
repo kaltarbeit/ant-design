@@ -5434,7 +5434,7 @@ exports[`renders ./components/table/demo/fixed-columns.md correctly 1`] = `
             <div
               class="ant-table-body"
               style="overflow-x:scroll;-webkit-transform:translate3d (0, 0, 0)"
-              tabindex="-1"
+              tabindex="0"
             >
               <table
                 class="ant-table-fixed"
@@ -6322,7 +6322,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
             <div
               class="ant-table-body"
               style="overflow-x:scroll;-webkit-transform:translate3d (0, 0, 0);max-height:300px;overflow-y:scroll"
-              tabindex="-1"
+              tabindex="0"
             >
               <table
                 class="ant-table-fixed"
@@ -7685,7 +7685,7 @@ exports[`renders ./components/table/demo/fixed-header.md correctly 1`] = `
             <div
               class="ant-table-body"
               style="max-height:240px;overflow-y:scroll"
-              tabindex="-1"
+              tabindex="0"
             >
               <table
                 class=""
@@ -9159,7 +9159,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
             <div
               class="ant-table-body"
               style="overflow-x:scroll;-webkit-transform:translate3d (0, 0, 0);max-height:240px;overflow-y:scroll"
-              tabindex="-1"
+              tabindex="0"
             >
               <table
                 class="ant-table-fixed"
