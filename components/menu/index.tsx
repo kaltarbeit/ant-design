@@ -1,5 +1,5 @@
 import * as React from 'react';
-import RcMenu, { Divider, ItemGroup } from 'rc-menu';
+import RcMenu, { Divider, ItemGroup } from '@kaltarbeit/rc-menu';
 import classNames from 'classnames';
 import omit from 'omit.js';
 import { polyfill } from 'react-lifecycles-compat';
