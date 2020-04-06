@@ -3,7 +3,6 @@
 exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
 <ul
   class="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal"
-  role="menu"
 >
   <li
     class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
@@ -25,7 +24,6 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
   </li>
   <li
     class="ant-menu-item ant-menu-item-selected"
-    role="menuitem"
   >
     <i
       class="anticon anticon-mail"
@@ -68,7 +66,6 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
   <li
     aria-disabled="true"
     class="ant-menu-item ant-menu-item-disabled"
-    role="menuitem"
   >
     <i
       class="anticon anticon-appstore"
@@ -165,7 +162,6 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
   </li>
   <li
     class="ant-menu-item"
-    role="menuitem"
   >
     <a
       href="https://ant.design"
@@ -199,7 +195,6 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
 exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
 <ul
   class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-  role="menu"
   style="width:256px"
 >
   <li
@@ -243,7 +238,6 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
     <ul
       class="ant-menu ant-menu-sub ant-menu-inline"
       id="sub1$Menu"
-      role="menu"
     >
       <li
         class=" ant-menu-item-group"
@@ -259,14 +253,12 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         >
           <li
             class="ant-menu-item ant-menu-item-selected"
-            role="menuitem"
             style="padding-left:48px"
           >
             Option 1
           </li>
           <li
             class="ant-menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Option 2
@@ -287,14 +279,12 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         >
           <li
             class="ant-menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Option 3
           </li>
           <li
             class="ant-menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Option 4
@@ -414,11 +404,9 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
   </button>
   <ul
     class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-    role="menu"
   >
     <li
       class="ant-menu-item ant-menu-item-selected"
-      role="menuitem"
       style="padding-left:24px"
     >
       <i
@@ -445,7 +433,6 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
     </li>
     <li
       class="ant-menu-item"
-      role="menuitem"
       style="padding-left:24px"
     >
       <i
@@ -472,7 +459,6 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
     </li>
     <li
       class="ant-menu-item"
-      role="menuitem"
       style="padding-left:24px"
     >
       <i
@@ -538,32 +524,27 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       <ul
         class="ant-menu ant-menu-sub ant-menu-inline"
         id="sub1$Menu"
-        role="menu"
       >
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 5
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 6
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 7
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 8
@@ -616,7 +597,6 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
 exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
 <ul
   class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-  role="menu"
   style="width:256px"
 >
   <li
@@ -660,32 +640,27 @@ exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
     <ul
       class="ant-menu ant-menu-sub ant-menu-inline"
       id="sub1$Menu"
-      role="menu"
     >
       <li
         class="ant-menu-item"
-        role="menuitem"
         style="padding-left:48px"
       >
         Option 1
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
         style="padding-left:48px"
       >
         Option 2
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
         style="padding-left:48px"
       >
         Option 3
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
         style="padding-left:48px"
       >
         Option 4
@@ -805,12 +780,10 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
   <br />
   <ul
     class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-    role="menu"
     style="width:256px"
   >
     <li
       class="ant-menu-item ant-menu-item-selected"
-      role="menuitem"
       style="padding-left:24px"
     >
       <i
@@ -835,7 +808,6 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
     </li>
     <li
       class="ant-menu-item"
-      role="menuitem"
       style="padding-left:24px"
     >
       <i
@@ -899,18 +871,15 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
       <ul
         class="ant-menu ant-menu-sub ant-menu-inline"
         id="sub1$Menu"
-        role="menu"
       >
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 3
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 4
@@ -997,7 +966,6 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
   <br />
   <ul
     class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-    role="menu"
     style="width:256px"
   >
     <li
@@ -1041,32 +1009,27 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
       <ul
         class="ant-menu ant-menu-sub ant-menu-inline"
         id="sub1$Menu"
-        role="menu"
       >
         <li
           class="ant-menu-item ant-menu-item-selected"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 1
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 2
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 3
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:48px"
         >
           Option 4
@@ -1158,7 +1121,6 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
 exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
 <ul
   class="ant-menu ant-menu-light ant-menu-root ant-menu-vertical"
-  role="menu"
   style="width:256px"
 >
   <li

@@ -139,11 +139,9 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
       />
       <ul
         class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-        role="menu"
       >
         <li
           class="ant-menu-item ant-menu-item-selected"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -170,7 +168,6 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -197,7 +194,6 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -275,7 +271,6 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
     />
     <ul
       class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
-      role="menu"
       style="line-height:64px"
     >
       <li
@@ -298,7 +293,6 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 1
       </li>
@@ -322,7 +316,6 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item ant-menu-item-selected"
-        role="menuitem"
       >
         nav 2
       </li>
@@ -346,7 +339,6 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 3
       </li>
@@ -446,11 +438,9 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
       />
       <ul
         class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-        role="menu"
       >
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -479,7 +469,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -508,7 +497,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -537,7 +525,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item ant-menu-item-selected"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -566,7 +553,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -595,7 +581,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -624,7 +609,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -653,7 +637,6 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -821,11 +804,9 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
       />
       <ul
         class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-        role="menu"
       >
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -854,7 +835,6 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -883,7 +863,6 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -912,7 +891,6 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item ant-menu-item-selected"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -986,11 +964,9 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       />
       <ul
         class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
-        role="menu"
       >
         <li
           class="ant-menu-item ant-menu-item-selected"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -1017,7 +993,6 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -1122,7 +1097,6 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
         </li>
         <li
           class="ant-menu-item"
-          role="menuitem"
           style="padding-left:24px"
         >
           <i
@@ -1241,7 +1215,6 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
     />
     <ul
       class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
-      role="menu"
       style="line-height:64px"
     >
       <li
@@ -1264,7 +1237,6 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 1
       </li>
@@ -1288,7 +1260,6 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item ant-menu-item-selected"
-        role="menuitem"
       >
         nav 2
       </li>
@@ -1312,7 +1283,6 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 3
       </li>
@@ -1408,7 +1378,6 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
     />
     <ul
       class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
-      role="menu"
       style="line-height:64px"
     >
       <li
@@ -1431,7 +1400,6 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 1
       </li>
@@ -1455,7 +1423,6 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item ant-menu-item-selected"
-        role="menuitem"
       >
         nav 2
       </li>
@@ -1479,7 +1446,6 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 3
       </li>
@@ -1561,7 +1527,6 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
         >
           <ul
             class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-            role="menu"
             style="height:100%"
           >
             <li
@@ -1603,32 +1568,27 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
               <ul
                 class="ant-menu ant-menu-sub ant-menu-inline"
                 id="sub1$Menu"
-                role="menu"
               >
                 <li
                   class="ant-menu-item ant-menu-item-selected"
-                  role="menuitem"
                   style="padding-left:48px"
                 >
                   option1
                 </li>
                 <li
                   class="ant-menu-item"
-                  role="menuitem"
                   style="padding-left:48px"
                 >
                   option2
                 </li>
                 <li
                   class="ant-menu-item"
-                  role="menuitem"
                   style="padding-left:48px"
                 >
                   option3
                 </li>
                 <li
                   class="ant-menu-item"
-                  role="menuitem"
                   style="padding-left:48px"
                 >
                   option4
@@ -1741,7 +1701,6 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
     />
     <ul
       class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
-      role="menu"
       style="line-height:64px"
     >
       <li
@@ -1764,7 +1723,6 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 1
       </li>
@@ -1788,7 +1746,6 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item ant-menu-item-selected"
-        role="menuitem"
       >
         nav 2
       </li>
@@ -1812,7 +1769,6 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       </li>
       <li
         class="ant-menu-item"
-        role="menuitem"
       >
         nav 3
       </li>
@@ -1848,7 +1804,6 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       >
         <ul
           class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-          role="menu"
           style="height:100%;border-right:0"
         >
           <li
@@ -1890,32 +1845,27 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
             <ul
               class="ant-menu ant-menu-sub ant-menu-inline"
               id="sub1$Menu"
-              role="menu"
             >
               <li
                 class="ant-menu-item ant-menu-item-selected"
-                role="menuitem"
                 style="padding-left:48px"
               >
                 option1
               </li>
               <li
                 class="ant-menu-item"
-                role="menuitem"
                 style="padding-left:48px"
               >
                 option2
               </li>
               <li
                 class="ant-menu-item"
-                role="menuitem"
                 style="padding-left:48px"
               >
                 option3
               </li>
               <li
                 class="ant-menu-item"
-                role="menuitem"
                 style="padding-left:48px"
               >
                 option4

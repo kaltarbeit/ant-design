@@ -7944,7 +7944,6 @@ exports[`ConfigProvider components Mention prefixCls 1`] = `
 exports[`ConfigProvider components Menu configProvider 1`] = `
 <ul
   class="config-menu config-menu-light config-menu-root config-menu-inline"
-  role="menu"
 >
   <li
     class="config-menu-submenu config-menu-submenu-inline config-menu-submenu-open"
@@ -7966,7 +7965,6 @@ exports[`ConfigProvider components Menu configProvider 1`] = `
     <ul
       class="config-menu config-menu-sub config-menu-inline"
       id="bamboo$Menu"
-      role="menu"
     >
       <li
         class=" config-menu-item-group"
@@ -7982,7 +7980,6 @@ exports[`ConfigProvider components Menu configProvider 1`] = `
         >
           <li
             class="config-menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Light
@@ -7997,7 +7994,6 @@ exports[`ConfigProvider components Menu configProvider 1`] = `
 exports[`ConfigProvider components Menu normal 1`] = `
 <ul
   class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
-  role="menu"
 >
   <li
     class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
@@ -8019,7 +8015,6 @@ exports[`ConfigProvider components Menu normal 1`] = `
     <ul
       class="ant-menu ant-menu-sub ant-menu-inline"
       id="bamboo$Menu"
-      role="menu"
     >
       <li
         class=" ant-menu-item-group"
@@ -8035,7 +8030,6 @@ exports[`ConfigProvider components Menu normal 1`] = `
         >
           <li
             class="ant-menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Light
@@ -8050,7 +8044,6 @@ exports[`ConfigProvider components Menu normal 1`] = `
 exports[`ConfigProvider components Menu prefixCls 1`] = `
 <ul
   class="prefix-Menu prefix-Menu-light prefix-Menu-root prefix-Menu-inline"
-  role="menu"
 >
   <li
     class="prefix-Menu-submenu prefix-Menu-submenu-inline prefix-Menu-submenu-open"
@@ -8072,7 +8065,6 @@ exports[`ConfigProvider components Menu prefixCls 1`] = `
     <ul
       class="prefix-Menu prefix-Menu-sub prefix-Menu-inline"
       id="bamboo$Menu"
-      role="menu"
     >
       <li
         class=" prefix-Menu-item-group"
@@ -8088,7 +8080,6 @@ exports[`ConfigProvider components Menu prefixCls 1`] = `
         >
           <li
             class="prefix-Menu-item"
-            role="menuitem"
             style="padding-left:48px"
           >
             Light
@@ -11639,12 +11630,10 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                         >
                           <ul
                             class="config-dropdown-menu  config-dropdown-menu-root config-dropdown-menu-vertical"
-                            role="menu"
                             tabindex="0"
                           >
                             <li
                               class="config-dropdown-menu-item"
-                              role="menuitem"
                             >
                               <label
                                 class="config-checkbox-wrapper"
@@ -11882,12 +11871,10 @@ exports[`ConfigProvider components Table normal 1`] = `
                         >
                           <ul
                             class="ant-dropdown-menu  ant-dropdown-menu-root ant-dropdown-menu-vertical"
-                            role="menu"
                             tabindex="0"
                           >
                             <li
                               class="ant-dropdown-menu-item"
-                              role="menuitem"
                             >
                               <label
                                 class="ant-checkbox-wrapper"
@@ -12125,12 +12112,10 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                         >
                           <ul
                             class="ant-dropdown-menu  ant-dropdown-menu-root ant-dropdown-menu-vertical"
-                            role="menu"
                             tabindex="0"
                           >
                             <li
                               class="ant-dropdown-menu-item"
-                              role="menuitem"
                             >
                               <label
                                 class="ant-checkbox-wrapper"
