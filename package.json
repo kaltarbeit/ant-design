@@ -1,6 +1,6 @@
 {
   "name": "antd",
-  "version": "3.26.9-ksd.27",
+  "version": "3.26.9-ksd.28",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -94,6 +94,7 @@
     "@ant-design/icons": "~2.1.1",
     "@ant-design/icons-react": "~2.0.1",
     "@types/react-slick": "^0.23.4",
+    "antd": "file:packages/antd-3.26.9-ksd.27-npm.tgz",
     "array-tree-filter": "^2.1.0",
     "babel-runtime": "6.x",
     "classnames": "~2.2.6",
