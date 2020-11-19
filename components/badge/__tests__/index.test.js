@@ -25,6 +25,7 @@ describe('Badge', () => {
     expect(wrapper).toMatchSnapshot();
     wrapper = mount(<Badge count="3.5" />);
     expect(wrapper).toMatchSnapshot();
+    expect(() => wrapper.unmount()).not.toThrow();
   });
 
   it('badge dot not showing count == 0', () => {
@@ -115,7 +116,7 @@ describe('Badge', () => {
   // https://github.com/ant-design/ant-design/issues/21331
   it('render Badge status/color when contains children', () => {
     const wrapper = render(
-      <>
+      <div>
         <Badge count={5} status="success">
           <a />
         </Badge>
@@ -125,7 +126,7 @@ describe('Badge', () => {
         <Badge count={5} color="#08c">
           <a />
         </Badge>
-      </>,
+      </div>,
     );
     expect(wrapper).toMatchSnapshot();
   })
